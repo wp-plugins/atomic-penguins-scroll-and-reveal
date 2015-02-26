@@ -825,14 +825,14 @@ register_activation_hook(__FILE__, 'combo_two');
      if ($combo2_count != 1){
 
       $combo_name = "Combo 2";
-      $img_effect  = "zoomInUp";
-      $img_effect_name = "Zoom In Up";
+      $img_effect  = "swing";
+      $img_effect_name = "Swing";
       $img_duration = "0";
       $img_delay = "0";
       $img_offset = "0";
       $img_iteration = "0";
-      $div_effect = "zoomInUp";
-      $div_effect_name = "Zoom In Up";
+      $div_effect = "swing";
+      $div_effect_name = "Swing";
       $div_duration = "0";
       $div_delay = "0";
       $div_offset = "0";
