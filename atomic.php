@@ -4,7 +4,7 @@ Plugin Name: Atomic Penguins Scroll&Reveal
 Description: Customize your scroll and reveal website with our plugin.
 Author: Atomic Penguin
 Author URL: http://atomicpenguins.com/
-Version: 1.0
+Version: 1.1
 Version
 */
 
@@ -698,8 +698,13 @@ function install_scroll_and_reveal()
 register_activation_hook(__FILE__, 'disable_combo');
   function disable_combo(){
 
+
      global $wpdb;
      $table_name = $wpdb->prefix . "snr";
+
+     $disable_count = $wpdb->get_var($wpdb->prepare("SELECT COUNT(combo_name) FROM $table_name where combo_name = %s","Disable"));
+
+     if ($disable_count != 1){
 
       $combo_name = "Disable";
       $img_effect  = "none";
@@ -746,13 +751,20 @@ register_activation_hook(__FILE__, 'disable_combo');
      dbDelta( $rows_affected );
 
        }
+   }
 
 
        register_activation_hook(__FILE__, 'combo_one');
   function combo_one(){
 
+    
+
      global $wpdb;
      $table_name = $wpdb->prefix . "snr";
+
+     $combo1_count = $wpdb->get_var($wpdb->prepare("SELECT COUNT(combo_name) FROM $table_name where combo_name = %s","Combo 1"));
+
+     if ($combo1_count != 1){
 
       $combo_name = "Combo 1";
       $img_effect  = "fadeIn";
@@ -799,6 +811,7 @@ register_activation_hook(__FILE__, 'disable_combo');
      dbDelta( $combo1 );
 
        }
+   }
 
 
 register_activation_hook(__FILE__, 'combo_two');
@@ -806,6 +819,10 @@ register_activation_hook(__FILE__, 'combo_two');
 
      global $wpdb;
      $table_name = $wpdb->prefix . "snr";
+
+     $combo2_count = $wpdb->get_var($wpdb->prepare("SELECT COUNT(combo_name) FROM $table_name where combo_name = %s","Combo 2"));
+
+     if ($combo2_count != 1){
 
       $combo_name = "Combo 2";
       $img_effect  = "zoomInUp";
@@ -852,7 +869,7 @@ register_activation_hook(__FILE__, 'combo_two');
      dbDelta( $combo2 );
 
        }
-
+}
 
 
 register_activation_hook(__FILE__, 'install_custom_scroll_and_reveal');
