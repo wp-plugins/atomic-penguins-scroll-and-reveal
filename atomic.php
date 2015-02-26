@@ -767,20 +767,20 @@ register_activation_hook(__FILE__, 'disable_combo');
      if ($combo1_count != 1){
 
       $combo_name = "Combo 1";
-      $img_effect  = "fadeIn";
-      $img_effect_name = "FadeIn";
+      $img_effect  = "tada";
+      $img_effect_name = "Tadaa!";
       $img_duration = "0";
       $img_delay = "0";
       $img_offset = "0";
       $img_iteration = "0";
-      $div_effect = "fadeIn";
-      $div_effect_name = "FadeIn";
+      $div_effect = "tada";
+      $div_effect_name = "Tadaa!";
       $div_duration = "0";
       $div_delay = "0";
       $div_offset = "0";
       $div_iteration = "0";
-      $p_effect = "fadeIn";
-      $p_effect_name = "FadeIn";
+      $p_effect = "tada";
+      $p_effect_name = "Tadaa!";
       $p_duration = "0";
       $p_delay = "0";
       $p_offset = "0";
