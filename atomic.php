@@ -147,7 +147,7 @@ function update_snr(){
     global $wpdb;
     $table_name = $wpdb->prefix . "snr";
     $id = $_POST['id'];
-    if ($id != 0){
+    if ($id != 1){
         $sql = $wpdb->query($wpdb->prepare("UPDATE $table_name SET selected='0' WHERE selected='1'"));
         $sql = $wpdb->query($wpdb->prepare("UPDATE $table_name SET selected='1' WHERE ID = %d",$id));
     }
