@@ -14,6 +14,15 @@ Tested up to: 4.0.1
 
 Atomic Penguins Scroll and Reveal is useful plugin if you want to create a website with animation for each elements. You can make the elements appear only when they are visible in the viewport of the browser. It can attract visitors for your site. 
 
+This is a free version of the plugin. Contact the developer at john@atomicpenguins.com for the premium version.
+
+Free Version
+	<li>Only Predeclared combinations.</li>
+	<li>9 entrance animations</li>
+
+Premium Version
+	<li>Has the custom animation where you can customize the animation of one elements using its class name</li>
+	<li>30 entrance animations</li>
 ==Installation==
 
 1. Upload Atomic.Penguins.Scroll.and.Reveal.zip to wp/content/plugins directory
@@ -23,8 +32,8 @@ Atomic Penguins Scroll and Reveal is useful plugin if you want to create a websi
 
 
 == Changelog ==
-= Version 1.0 =
-* No changes yet
+= Version 1.1 =
+* Fix installation bugs on database
 
 
 == Frequently Asked Questions ==
@@ -38,8 +47,8 @@ No, but you can edit a combination and change its animations to get the animatio
 No, you can only use the class name of the element.
 
 == Upgrade Notice ==
-= Version 1.0 =
-* First version
+= Version 1.1 =
+* Version 1.1
 
 
 == Screenshots ==
