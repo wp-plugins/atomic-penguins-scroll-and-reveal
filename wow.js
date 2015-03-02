@@ -226,7 +226,7 @@
       if (animationName === 'none') {
         return '';
       } else {
-        return animationName;
+        return '';
       }
     };
 
