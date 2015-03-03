@@ -4,7 +4,7 @@ Plugin Name: Atomic Penguins Scroll&Reveal
 Description: Customize your scroll and reveal website with our plugin. (Free Version)
 Author: Atomic Penguin
 Author URL: http://atomicpenguins.com/
-Version: 1.1
+Version: 1.1.1
 Version
 */
 
