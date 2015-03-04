@@ -29,7 +29,9 @@ Premium Version
 ==Installation==
 
 1. Upload Atomic.Penguins.Scroll.and.Reveal.zip to wp/content/plugins directory
+
 2. Activate the plugins through the 'Plugins' menu in Wordpress Admin
+
 3. A new menu titled 'Atomic Penguins Scroll and Reveal' will be added to the side menu. Click it and choose the animations for your site. You can customize an elements as well using its class name.
 
 
@@ -41,11 +43,11 @@ Premium Version
 
 == Frequently Asked Questions ==
 
-= Can I create my own combination?=
+1. Can I create my own combination?
 
 No, but you can edit a combination and change its animations to get the animation that you want.
 
-= Can I use the element ID to customize its animations?=
+2. Can I use the element ID to customize its animations?
 
 No, you can only use the class name of the element.
 
