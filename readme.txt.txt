@@ -32,7 +32,7 @@ Premium Version
 
 2. Activate the plugins through the 'Plugins' menu in Wordpress Admin
 
-3. A new menu titled 'Atomic Penguins Scroll and Reveal' will be added to the side menu. Click it and choose the animations for your site. You can customize an elements as well using its class name.
+3. A new menu titled 'Scroll and Reveal' will be added to the side menu. Click it and choose the animations for your site. You can customize an elements as well using its class name.
 
 
 
