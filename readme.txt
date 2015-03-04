@@ -58,4 +58,3 @@ No, you can only use the class name of the element.
 
 == Screenshots ==
 1. UI for the admin view.
-2. List of hover projects stored on the database.
