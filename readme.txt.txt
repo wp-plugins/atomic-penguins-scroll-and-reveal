@@ -23,7 +23,7 @@ Free Version
 	<li>9 entrance animations</li>
 
 Premium Version
-	<li>Has the custom animation where you can customize the animation of one elements using its class name</li>
+	<li>Has the custom animation where you can customize the animation of one element using its class name</li>
 	<li>30 entrance animations</li>
 
 ==Installation==
