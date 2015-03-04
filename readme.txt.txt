@@ -9,6 +9,8 @@ Version: 1.1.1
 License: GPLv2 or later
 Donate link: none
 Tested up to: 4.0.1
+Requires at least: 4.0.1
+Stable Tag: 1.1.1
 
 ==Description==
 
@@ -23,11 +25,14 @@ Free Version
 Premium Version
 	<li>Has the custom animation where you can customize the animation of one element using its class name</li>
 	<li>30 entrance animations</li>
+
 ==Installation==
 
 1. Upload Atomic.Penguins.Scroll.and.Reveal.zip to wp/content/plugins directory
+
 2. Activate the plugins through the 'Plugins' menu in Wordpress Admin
-3. A new menu titled 'Atomic Penguins Scroll and Reveal' will be added to the side menu. Click it and choose the animations for your site. You can customize an elements as well using its class name.
+
+3. A new menu titled 'Scroll and Reveal' will be added to the side menu. Click it and choose the animations for your site. You can customize an elements as well using its class name.
 
 
 
