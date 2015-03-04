@@ -43,11 +43,10 @@ Premium Version
 
 == Frequently Asked Questions ==
 
-1. Can I create my own combination?
-
+=Can I create my own combination?=
 No, but you can edit a combination and change its animations to get the animation that you want.
 
-2. Can I use the element ID to customize its animations?
+=Can I use the element ID to customize its animations?=
 
 No, you can only use the class name of the element.
 
