@@ -43,10 +43,11 @@ Premium Version
 
 == Frequently Asked Questions ==
 
-=Can I create my own combination?=
+= Can I create my own combination? =
+
 No, but you can edit a combination and change its animations to get the animation that you want.
 
-=Can I use the element ID to customize its animations?=
+= Can I use the element ID to customize its animations? =
 
 No, you can only use the class name of the element.
 
@@ -57,4 +58,3 @@ No, you can only use the class name of the element.
 
 == Screenshots ==
 1. UI for the admin view.
-2. List of hover projects stored on the database.
