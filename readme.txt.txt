@@ -23,6 +23,7 @@ Free Version
 Premium Version
 	<li>Has the custom animation where you can customize the animation of one elements using its class name</li>
 	<li>30 entrance animations</li>
+
 ==Installation==
 
 1. Upload Atomic.Penguins.Scroll.and.Reveal.zip to wp/content/plugins directory
