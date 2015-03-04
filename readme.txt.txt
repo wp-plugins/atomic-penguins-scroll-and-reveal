@@ -21,7 +21,7 @@ Free Version
 	<li>9 entrance animations</li>
 
 Premium Version
-	<li>Has the custom animation where you can customize the animation of one elements using its class name</li>
+	<li>Has the custom animation where you can customize the animation of one element using its class name</li>
 	<li>30 entrance animations</li>
 ==Installation==
 
@@ -38,11 +38,11 @@ Premium Version
 
 == Frequently Asked Questions ==
 
-= Can I create my own combination?=
+1. Can I create my own combination?
 
 No, but you can edit a combination and change its animations to get the animation that you want.
 
-= Can I use the element ID to customize its animations?=
+2. Can I use the element ID to customize its animations?
 
 No, you can only use the class name of the element.
 
