@@ -5,12 +5,12 @@ Plugin Name: Atomic Penguins Scroll&Reveal
 Tags: Scroll and Reveal, wow.js, animate.css
 Author URL: atomicpenguins.com/wordpress
 Author: Atomic Penguins
-Version: 1.1.1
+Version: 1.1.2
 License: GPLv2 or later
 Donate link: none
 Tested up to: 4.0.1
 Requires at least: 4.0.1
-Stable Tag: 1.1.1
+Stable Tag: 1.1.2
 
 ==Description==
 
